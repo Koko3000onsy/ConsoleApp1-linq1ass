@@ -1,11 +1,130 @@
-﻿using static ConsoleApp1_linq1.DataSource.Source;
+﻿using ConsoleApp1_linq1.Modals;
+using static ConsoleApp1_linq1.DataSource.Source;
 namespace ConsoleApp1_linq1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-        }
+            //Q1
+            //var result= ProductList.Where(p => p.Category == "Seafood");
+            // foreach(var item in result)
+            // {
+            //   Console.WriteLine($"Name: {item.ProductName}, Price: {item.UnitPrice}");
+            // }
+
+            //Q2
+            //var result = ProductList.Select(p => p.ProductName);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Name: {item}");
+
+            //}
+
+            //Q3
+            //var result = ProductList.OrderBy(p => p.UnitPrice)
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Name: {item.ProductName}, Price: {item.UnitPrice}");
+            //}
+
+            //Q4
+            //var result = ProductList.Where(p => p.UnitPrice >= 10 && p.UnitsInStock <= 30);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Name: {item.ProductName}, Price: {item.UnitPrice}");
+            //}
+
+            //Q5
+            //var result = ProductList.Where(p => p.Category == "Condiments" && p.UnitsInStock > 0);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Name: {item.ProductName}, Price: {item.UnitPrice}");
+            //}
+
+            //Q6
+            //var resutlt = ProductList.Select(p => new
+            //{
+            //    p.ProductName,
+            //    p.UnitPrice,
+            //    Instock = p.UnitsInStock > 0 ? "available" : "out of stock"
+            //});
+            //foreach (var item in resutlt)
+            //{
+            //    Console.WriteLine($"Name: {item.ProductName}, Price: {item.UnitPrice}, Stock Status: {item.Instock}");
+            //}
+
+            //Q7
+            //var result = ProductList.Select((p, i) => new
+            //{
+            //   Index = i+1 ,
+            //   Name = p.ProductName
+            //});
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"{item.Index}. {item.Name}");
+            //}
+
+            //Q8
+            //var result = ProductList.OrderBy(p => p.Category)
+            //                      .ThenByDescending(p => p.UnitPrice);
+            //foreach (var item in result)
+            //{
+            //  Console.WriteLine($"Name: {item.ProductName}, Category: {item.Category}, Price: {item.UnitPrice}");
+            //}
+
+            //Q9
+            //var result= ProductList.OrderByDescending(p => p.UnitsInStock)
+            //                      .Where(p=> p.Category== "Beverages");
+            //foreach (var item in result)
+            //{
+            //  Console.WriteLine($"Name: {item.ProductName}, Units in Stock: {item.UnitsInStock}");
+            //}
+
+            //Q10
+            //var result= from c in CustomerList
+            //            from o in c.Orders
+            //            where o.OrderDate.Year >= 1997
+            //            select new
+            //            {
+            //                c.CustomerID,
+            //                o.OrderDate
+            //            };
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"CustomerID: {item.CustomerID}, OrderDate: {item.OrderDate}");
+            //}
+
+            //Q11
+            //var result = ProductList.Select((p, i) => new
+            //{
+            //    position = i+1 ,
+            //    Name = p.ProductName
+            //});
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"{item.position}. {item.Name}");
+            //}
+
+            //Q12
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //var result = Arr.OrderBy(p => p.Length).ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
+
+            //Q13
+            //string[] words = { "hi","inemrabule","kite", "time", "milk", "bin", "iron", "sit", "king", "bit" };
+            //var result = words.Where(w => w.Length > 1 && w[1] == 'i').Reverse();
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            }
     }
 }
