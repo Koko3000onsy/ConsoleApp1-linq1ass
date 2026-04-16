@@ -54,6 +54,18 @@ namespace ConsoleApp1_linq1
             //{
             //    Console.WriteLine($"Name: {item.ProductName}, Price: {item.UnitPrice}, Stock Status: {item.Instock}");
             //}
+
+            //Q7
+            //var result = ProductList.Select((p, i) => new
+            //{
+            //   Index = i+1 ,
+            //   Name = p.ProductName
+            //});
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"{item.Index}. {item.Name}");
+            //}
         }
     }
 }
