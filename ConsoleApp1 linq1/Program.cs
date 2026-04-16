@@ -109,6 +109,14 @@ namespace ConsoleApp1_linq1
             //    Console.WriteLine($"{item.position}. {item.Name}");
             //}
 
+            //Q12
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //var result = Arr.OrderBy(p => p.Length).ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
         }
     }
 }
