@@ -35,6 +35,13 @@ namespace ConsoleApp1_linq1
             //{
             //    Console.WriteLine($"Name: {item.ProductName}, Price: {item.UnitPrice}");
             //}
+
+            //Q5
+            //var result = ProductList.Where(p => p.Category == "Condiments" && p.UnitsInStock > 0);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Name: {item.ProductName}, Price: {item.UnitPrice}");
+            //}
         }
     }
 }
