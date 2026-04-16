@@ -117,6 +117,14 @@ namespace ConsoleApp1_linq1
             //    Console.WriteLine(item);
 
             //}
-        }
+
+            //Q13
+            //string[] words = { "hi","inemrabule","kite", "time", "milk", "bin", "iron", "sit", "king", "bit" };
+            //var result = words.Where(w => w.Length > 1 && w[1] == 'i').Reverse();
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            }
     }
 }
