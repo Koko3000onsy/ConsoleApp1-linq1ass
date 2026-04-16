@@ -82,6 +82,21 @@ namespace ConsoleApp1_linq1
             //{
             //  Console.WriteLine($"Name: {item.ProductName}, Units in Stock: {item.UnitsInStock}");
             //}
+
+            //Q10
+            //var result= from c in CustomerList
+            //            from o in c.Orders
+            //            where o.OrderDate.Year >= 1997
+            //            select new
+            //            {
+            //                c.CustomerID,
+            //                o.OrderDate
+            //            };
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"CustomerID: {item.CustomerID}, OrderDate: {item.OrderDate}");
+            //}
+
         }
     }
 }
