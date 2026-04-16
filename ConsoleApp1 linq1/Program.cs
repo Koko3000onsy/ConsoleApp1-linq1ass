@@ -66,6 +66,14 @@ namespace ConsoleApp1_linq1
             //{
             //    Console.WriteLine($"{item.Index}. {item.Name}");
             //}
+
+            //Q8
+            //var result = ProductList.OrderBy(p => p.Category)
+            //                      .ThenByDescending(p => p.UnitPrice);
+            //foreach (var item in result)
+            //{
+            //  Console.WriteLine($"Name: {item.ProductName}, Category: {item.Category}, Price: {item.UnitPrice}");
+            //}
         }
     }
 }
