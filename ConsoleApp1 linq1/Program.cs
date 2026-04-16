@@ -20,6 +20,14 @@ namespace ConsoleApp1_linq1
             //    Console.WriteLine($"Name: {item}");
 
             //}
+
+            //Q3
+            //var result = ProductList.OrderBy(p => p.UnitPrice)
+                                    
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Name: {item.ProductName}, Price: {item.UnitPrice}");
+            //}
         }
     }
 }
