@@ -7,11 +7,19 @@ namespace ConsoleApp1_linq1
         static void Main(string[] args)
         {
             //Q1
-           //var result= ProductList.Where(p => p.Category == "Seafood");
-           // foreach(var item in result)
-           // {
-           //   Console.WriteLine($"Name: {item.ProductName}, Price: {item.UnitPrice}");
-           // }
+            //var result= ProductList.Where(p => p.Category == "Seafood");
+            // foreach(var item in result)
+            // {
+            //   Console.WriteLine($"Name: {item.ProductName}, Price: {item.UnitPrice}");
+            // }
+
+            //Q2
+            //var result = ProductList.Select(p => p.ProductName);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Name: {item}");
+
+            //}
         }
     }
 }
