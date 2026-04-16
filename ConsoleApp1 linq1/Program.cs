@@ -97,6 +97,18 @@ namespace ConsoleApp1_linq1
             //    Console.WriteLine($"CustomerID: {item.CustomerID}, OrderDate: {item.OrderDate}");
             //}
 
+            //Q11
+            //var result = ProductList.Select((p, i) => new
+            //{
+            //    position = i+1 ,
+            //    Name = p.ProductName
+            //});
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"{item.position}. {item.Name}");
+            //}
+
         }
     }
 }
